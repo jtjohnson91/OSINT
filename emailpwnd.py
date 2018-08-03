@@ -33,7 +33,8 @@ for x in emails:
     emails2 = re.sub('<a \S*\s\S*\s\S*>', '', emails2)
     emails2 = re.sub('<\/\S*>', '', emails2)
     emails2 = re.sub('(?<!\S)<\S*>(?=\S)', '', emails2)
-    print emails2
+#    print emails2
+##THE VARIABLE 'emails2' CONTAINS THE INFORMATION GATHERED.
 ##IF USING GOOGLE CHAT TO ALERT UNCOMMENT THE BELOW AND EDIT THE "url" VARIABLE TO YOUR WEBHOOK URL
 #    headers2 = {'Content-Type': 'application/json'}
 #    url = "<INSERT GOOGLE WEBHOOK URL HERE>"
